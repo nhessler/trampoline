@@ -6,11 +6,11 @@ require 'trampoline/version'
 Gem::Specification.new do |spec|
   spec.name          = "trampoline"
   spec.version       = Trampoline::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
+  spec.authors       = ["Nathan Hessler"]
+  spec.email         = ["xmilestegx@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{Implements the Functional pattern called Trampolines}
+  spec.description   = %q{Trampolines are used to implemenet tail recursion that doesn't cause Stack Overflow Errors}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
